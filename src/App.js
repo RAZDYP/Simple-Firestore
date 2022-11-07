@@ -1,7 +1,14 @@
 import "./App.css";
+import React from "react";
+import Formfirebase from "./components/Formfirebase";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
-  return <h1>Hello world</h1>;
+  return (
+    <>
+      <Formfirebase />
+    </>
+  );
 }
 
 export default App;
